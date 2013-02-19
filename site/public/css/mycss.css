@@ -1,0 +1,16 @@
+html {
+	height: 100%
+}
+body {
+	height: 100%;
+	margin: 0;
+	padding: 0
+}
+h1 {
+	align: center;
+	color: #3366CC
+}
+#map_canvas {
+	width: 100%;
+	height: 380px
+}

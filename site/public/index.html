@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  
+  <head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <title>Foodvent map test</title>
+		<link href="css/960.css" type="text/css" rel="stylesheet">
+		<link href="css/reset.css" type="text/css" rel="stylesheet">
+		<link href="css/text.css" type="text/css" rel="stylesheet">
+		<link href="css/mystyle.css" type="text/css" rel="stylesheet">
+		<script src="https://api.reportgrid.com/js/precog.js?apiKey=588E4FF0-4ACB-458F-9707-D9170390B2DA&analyticsService=https://beta.Precog.com/&basePath=/0000001320/"></script>
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script> 
+		<script type="text/javascript" src="http://oauth.googlecode.com/svn/code/javascript/oauth.js"></script>
+		<script type="text/javascript" src="http://oauth.googlecode.com/svn/code/javascript/sha1.js"></script>
+		<script type="text/javascript" src="https://raw.github.com/padolsey/prettyPrint.js/master/prettyprint.js"></script>
+    <script type="text/javascript" src="js/Eventbrite.jquery.js"></script>
+    <script type="text/javascript" src="js/yelp.js"></script>
+    <script type="text/javascript" src="js/jquery.scrollTo-1.4.3.1-min.js"></script>    
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAUOLV9mys5K8MWJVWOj1mfW9AOvoRGniI&sensor=false"></script>
+		</script>
+
+	</head>
+  
+  <body onload="initialize()">
+    <h1>Welcome to Foodvent</h1>
+    <div id="slogan_div" class="slogan_div container_12">
+    	<p class="grid_8"/>
+			<p id="slogan" class="slogan omega grid_4">we find the best restaurants so you don't have to!</p>
+		</div>
+		<div id="sponsor" class="precog_powered" align="right">
+			<dl>
+				<dt>powered by <a href="http://www.precog.com"><img src="images/precog_logo.png"></a></dt>
+				<dt><img src="images/yelp_logo_50x25.png"></dt>
+				<dt><img src="images/eb_press_little.gif" HEIGHT="40" WIDTH="80" BORDER="0"></dt>
+			</dl>
+		</div>
+    <div id="map_canvas"></div>
+    <div id="status_updates" class="status_updates container_12">
+	    <div id="marker_status" class="marker_status grid_4 pull_1"></div>
+	    <div id="disclaimer" class="grid_4">*note: summarized queries supports San Francisco at this time only</div>
+			<div id="analytics" class="analytics grid_3"></div>
+		</div>
+		<div id="precog_charts"></div>
+    <div id="grid" class="grid container_12">
+			<div id="events" class="events grid_4 pull_1">events</div>
+			<div id="eventinfo" class="eventinfo grid_4">event info</div>
+			<div id="restaurants" class="restaurants grid_3">restaurants</div>
+		</div>
+    <script type="text/javascript" src="js/main.js"></script>
+    <div id="contact">Questions? Comments? <a href="mailto:hcbomb@yahoo.com?subject=I%20Like%20Foodvent%21">Hit me up!</a></div>
+  </body>
+
+</html>

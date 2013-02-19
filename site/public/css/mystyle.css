@@ -1,0 +1,74 @@
+html {
+	height: 100%
+}
+body {
+  height: 100%;
+  margin: 0;
+	padding: 0
+}
+h1 {
+  text-align: center;
+  font-size: 40px;
+	color: #3366CC
+}
+#map_canvas {
+  width: 100%;
+	height: 380px;
+}
+
+.slogan {
+	font-style: italic;
+}
+.sponsor {
+	horizontal-align: right;
+}
+.status_updates {
+  text-align: center;
+}
+.marker_status {
+	visibility: visible;
+	border:2px solid #a1a1a1;
+	padding:10px 10px; 
+	background:#dddddd;
+	border-radius:25px;
+	-moz-border-radius:25px; 
+	box-shadow: 5px 5px 5px #888888;
+}
+.analytics {
+	border:2px solid #3366CC;
+	padding:10px 10px; 
+	background:#3366CC;
+	border-radius:25px;
+	-moz-border-radius:25px; 
+	box-shadow: 5px 5px 5px #888888;
+}
+#grid {
+	padding-top: 5px;
+}
+.events {
+/*	border: 1px solid #cccccc;	*/
+	border-collapse: collapse;
+	padding: 10px;
+	height: 500px;
+	overflow: scroll;
+}
+.eventinfo {
+	visibility: hidden;
+	padding: 5px;
+	height: 500px;
+	overflow: scroll;
+}
+.restaurants {
+/*	border: 1px solid #cccccc;	*/
+	padding: 5px;
+	height: 500px;
+	overflow: scroll;
+}
+p img {
+	padding: 0;
+	max-width: 100%;
+	height: auto;
+}
+#header, #content, #footer, .widget {
+	overflow: hidden;
+}
